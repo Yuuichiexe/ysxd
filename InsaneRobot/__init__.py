@@ -50,6 +50,7 @@ if ENV:
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Dosto_ki_Mehfil786")
+    REDIS_URL = os.environ.get("REDIS_URL", None) # REDIS URL (From:- Heraku & Redis)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
@@ -98,6 +99,7 @@ else:
     CASH_API_KEY = Config.CASH_API_KEY
     DB_URI = Config.DATABASE_URL
     DEL_CMDS = Config.DEL_CMDS
+    REDIS_URL = Config.REDIS_URL
     EVENT_LOGS = Config.EVENT_LOGS
     INFOPIC = Config.INFOPIC
     LOAD = Config.LOAD
