@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *ʜᴇʏ* {}, 🥀
 
-𝙸'ᴍ {BOT_NAME} [.](https://telegra.ph/file/324c1f6d6fa22eacc1129.jpg)
+𝙸'ᴍ {} [.](https://telegra.ph/file/324c1f6d6fa22eacc1129.jpg)
 » ᴛʜᴇ ᴩᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰᴏʀ.
 •ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ.
 •ᴇxᴛʀᴀ ꜰᴜɴ ᴍᴏᴅᴜʟᴇꜱ.
@@ -102,8 +102,8 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
 [❃](https://telegra.ph/file/731198ffd9dabf8aff4a8.jpg) 
+*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
 ‣ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ.
 ‣ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
   ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
