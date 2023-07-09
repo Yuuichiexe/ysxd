@@ -20,6 +20,8 @@ class Config(object):
 
     TOKEN = ""  # Get bot token from @BotFather on Telegram
 
+    REDIS_URL = "" # get it from ur rndwa redis lab
+
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
 
     OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
