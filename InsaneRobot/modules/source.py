@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** Tᴇᴀᴍ●Insane
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** @Fuckingenos
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -28,8 +28,8 @@ async def repo(_, message: Message):
                 [
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ",
-                        url="https://github.com/TheTeamInsane/InsaneManagement",
+                        "sᴜᴘᴘᴏʀᴛ",
+                        url=f"https://t.me/Xd_Bots_Support",
                     ),
                 ]
             ]
@@ -37,4 +37,4 @@ async def repo(_, message: Message):
     )
 
 
-__mod_name__ = "Rᴇᴩᴏ"
+__mod_name__ = "Fᴇʟʟᴏᴡ"
