@@ -1,6 +1,6 @@
 
 
-from InsaneRobot import REDIS
+from InsaneRobot import redis
 
 
 # AFK
