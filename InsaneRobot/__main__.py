@@ -72,15 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {}, 🥀
+*ᴋᴏɴɪᴄᴄʜɪᴡᴀ* {}, 🥀
 
 𝙸'ᴍ {} [.](https://telegra.ph/file/324c1f6d6fa22eacc1129.jpg)
-» ᴛʜᴇ ᴩᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰᴏʀ.
-──────────────────
-*•ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ.*
-*•ᴇxᴛʀᴀ ꜰᴜɴ ᴍᴏᴅᴜʟᴇꜱ.*
-*•ꜱᴘᴀᴍ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ.*
-*•ᴀᴅᴠᴀɴᴄᴇ ᴛᴀɢ ꜰᴇᴀᴛᴜʀᴇꜱ.*
+» ᴛʜᴇ ᴩᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰᴏʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀɴᴀɢᴇ ɪᴛ & ᴇɴᴊᴏʏ.
 ──────────────────
 *๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ.*
 """
@@ -88,22 +83,19 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="⛩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ⛩",
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
+    
     [
-        InlineKeyboardButton(text="🍁ʜᴇʟᴩ🍁", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="✨ꜱᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="✧ᴜᴘᴅᴀᴛᴇꜱ✧", url=f"https://t.me/Xd_Bot_Updates"),
+        InlineKeyboardButton(text="•ᴄᴏᴍᴍᴀɴᴅꜱ•", callback_data="help_back"),   
+        InlineKeyboardButton(text="◈ꜱᴜᴘᴘᴏʀᴛ◈", url=f"https://t.me/{SUPPORT_CHAT}"),   
     ],
     
 ]
 
 HELP_STRINGS = f"""
-[❃](https://telegra.ph/file/731198ffd9dabf8aff4a8.jpg) 
 *» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
 ‣ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ.
 ‣ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
@@ -413,7 +405,7 @@ def Insane_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ",
-                            url="https://github.com/TheTeamInsane",
+                            url="https://github.com/Lol",
                         ),
                     ],
                     [
