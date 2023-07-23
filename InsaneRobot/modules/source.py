@@ -27,9 +27,6 @@ async def repo(_, message: Message):
             [
                 [
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
-                    InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ",
-                        url=f"https://t.me/Xd_Bots_Support",
                     ),
                 ]
             ]
