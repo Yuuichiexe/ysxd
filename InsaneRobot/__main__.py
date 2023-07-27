@@ -72,9 +72,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ᴋᴏɴɪᴄᴄʜɪᴡᴀ* {}, 🥀
+*ʏᴏ ᴡᴀꜱᴜᴘ* {}, 
 
-𝙸'ᴍ {} [.](https://te.legra.ph/file/1b6e239caa04afaf506fa.jpg)
+𝙸'ᴍ {} [.](https://te.legra.ph/file/af24a6eebea008264ffc3.jpg)
 » ᴛʜᴇ ᴩᴏᴡᴇʀғᴜʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰᴏʀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ. ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀɴᴀɢᴇ ɪᴛ & ᴇɴᴊᴏʏ.
 ──────────────────
 *๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ.*
@@ -198,7 +198,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAANEZKpGQhp6U68Grl26vK3QXiyr640AAmULAAK7-VFV0Gz2ZobNw-UvBA"
+                "CAACAgQAAxkBAAIBPWTCFIl93zs2yH79jiakBoPQx8xjAAJWEAACgq74UJLTBDBChLscLwQ"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
